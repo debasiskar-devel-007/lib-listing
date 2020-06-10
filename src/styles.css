@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
@@ -72,3 +73,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .imgmodalcls.mat-card{padding: 0;border-radius:0; box-shadow: none;}
 .imgmodalcls.mat-card .mat-button {margin: 10px auto 0px;display: block;}
+=======
+/* Add application styles & imports to this file! */
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786

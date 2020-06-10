@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shatterblock
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
@@ -216,3 +217,8 @@ IF you use Linux or Mac open the terminal and Run `sudo npm install angular7-lis
 `</lib-listing>`
 
 
+=======
+# dna-backend-wvgebz
+
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/dna-backend-wvgebz)
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786

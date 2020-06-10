@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "shatterblock": {
+=======
+    "demo": {
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/shatterblock",
+=======
+            "outputPath": "dist/demo",
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,11 +31,17 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
+=======
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786
           },
           "configurations": {
             "production": {
@@ -45,6 +59,7 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
+<<<<<<< HEAD
               "buildOptimizer": true,
               "budgets": [
                 {
@@ -69,12 +84,16 @@
                   "with": "src/environments/environment.development.ts"
                 }
               ]
+=======
+              "buildOptimizer": true
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "shatterblock:build"
           },
           "configurations": {
@@ -86,13 +105,24 @@
             },
             "local": {
               "browserTarget": "shatterblock:build:local"
+=======
+            "browserTarget": "demo:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "demo:build:production"
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "shatterblock:build"
+=======
+            "browserTarget": "demo:build"
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786
           }
         },
         "test": {
@@ -103,8 +133,12 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
+<<<<<<< HEAD
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
+=======
+              "styles.css"
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786
             ],
             "scripts": [],
             "assets": [
@@ -126,6 +160,7 @@
           }
         }
       }
+<<<<<<< HEAD
     },
     "shatterblock-e2e": {
       "root": "e2e/",
@@ -326,4 +361,9 @@
     }
   },
   "defaultProject": "shatterblock"
+=======
+    }
+  },
+  "defaultProject": "demo"
+>>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786
 }
