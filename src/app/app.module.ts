@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -151,18 +150,5 @@ import { BtnComponent } from './btn/btn.component';
         RadiobuttonComponent,
         CheckboxComponent
     ]
-=======
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-
-import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
-
-@NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
-  bootstrap:    [ AppComponent ]
->>>>>>> 853c0456ade1bcdf89928048429b34fb41ad3786
 })
 export class AppModule { }

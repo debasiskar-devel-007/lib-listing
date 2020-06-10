@@ -171,7 +171,7 @@ export class ListingComponent {
                     this.currentautosearcharr = result.res;
                     this._snackBar.openFromComponent(SnackbarComponent, {
                         duration: 2000,
-                        data: { errormessage: 'New Search of data loaded for AC' }
+                        data: { errormessage: 'New Search of data loaded ' }
                     });
                 }
                 else {
