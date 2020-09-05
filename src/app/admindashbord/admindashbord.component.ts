@@ -930,8 +930,8 @@ export class AdmindashbordComponent implements OnInit {
                 }],
 
                 prefix: "Test-" + Date.now(),
-                path: 'test/t1/',
-                baseurl: 'test/t1/',
+                path: 'test/test1/',
+                baseurl: 'test/test1/',
                 bucket: 'awsbackend-dev-patient-files-test',
                 apiurl: "https://tge24bc2ne.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL",
                 apideleteurl: "https://tge24bc2ne.execute-api.us-east-1.amazonaws.com/dev/deletefilefromBucket",
@@ -945,6 +945,7 @@ export class AdmindashbordComponent implements OnInit {
             }
         ]
     };
+    
 
 
     public blog_cat_list: any = [
